@@ -30,6 +30,7 @@ module LocalAvatarsPlugin
 		include LocalAvatars
 
 		def avatar
+			@project = Project.find_by_identifier('msas')
 			@user = User.current
 		end
 
