@@ -20,9 +20,11 @@ require 'redmine'
 
 Redmine::Plugin.register :redmine_local_avatars do
   name 'Redmine Local Avatars plugin'
-  author 'Andrew Chaika and Luca Pireddu'
-  description 'This plugin lets users upload avatars directly into Redmine'
+	author 'Ministère de la santé'
+	description 'Plugin destiné au ministère de la santé du Sénégal pour adopter Redmine en fonction de leurs besoins'
 	version '0.1.1'
+	url 'http://www.sante.gouv.sn/'
+	author_url 'http://www.sante.gouv.sn/'
 end
 
 ActionDispatch::Callbacks.to_prepare do
